@@ -1,7 +1,4 @@
 * {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #1a1b41;
-  color: #6290c3;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +6,12 @@
 
 html {
   font-size: 62.5%;
+  background-color: #1a1b41;
 }
 
 body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6290c3;
   width: 80%;
   margin: auto;
 }
@@ -24,9 +24,12 @@ p {
 }
 
 header {
+  background-color: #1a1b41;
   position: fixed;
-  top: 0rem;
-  width: 80%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 10%;
 }
 
 header .logo {
@@ -43,7 +46,7 @@ header .logo {
 
 .nav-links li {
   list-style: none;
-  color: #c2e7da;
+  color: #f1ffe7;
   margin: 0 0.5rem;
 }
 
@@ -72,8 +75,16 @@ button {
   align-items: center;
 }
 
+section {
+  margin: 15rem 0;
+}
 .section-one {
-  margin: 20rem 0;
+  margin: 25rem 0;
+}
+
+footer {
+  padding: 20rem 0;
+  background-color: black;
 }
 
 h1 {
